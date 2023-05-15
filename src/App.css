@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,87 @@
   to {
     transform: rotate(360deg);
   }
+}
+*{
+  box-sizing: border-box;
+}
+.form-create{
+  width: 100%;
+  padding: 1em;
+  background-color: #159895;
+}
+.form-create input{
+  width: 100%;
+  padding: 0.5em;
+}
+.form-create button{
+  margin-top: 0.5em;
+  padding: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.form-create h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  padding-top: 0;
+}
+.list-book{
+  width: 70%;
+  margin: 15px auto;
+}
+.item-book{
+  width: 16%;
+  display: inline-block;
+  padding: 5px;
+}
+.item-book img{
+  display: block;
+}
+.item-book button{
+  margin: 5px;
+  padding: 5px 5px;
+  display: inline-block;
+} */
+/*  */
+*{
+  box-sizing: border-box;
+}
+.form-create{
+  width: 100%;
+  padding: 1em;
+  background-color: #408E91;
+}
+.form-create input{
+  width: 100%;
+  padding: 0.5em;
+}
+.form-create button{
+  margin-top: 0.5em;
+  padding: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.form-create h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  padding-top: 0;
+}
+.list-books{
+  width: 70%;
+  margin: 15px auto;
+}
+.item-book{
+  width: 33%;
+  display: inline-block;
+  padding: 15px;
+}
+.item-book img {
+  width: 100%;
+}
+.item-book button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
